@@ -1,6 +1,6 @@
-# Docker - Node Server 
+# Docker - Node.js Server 
 
-Spin up a NodeJS server with Nodemon running to aid the Salesforce Reference Application (SFRA) development 
+Spin up a Node.js server (with nodemon) to enable customisation of Storefront Reference Architecture (SFRA) for Salesforce Commerce Cloud development  
 
 ## Installation
 
