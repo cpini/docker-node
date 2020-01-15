@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index",
+    "start.dev": "nodemon -L"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

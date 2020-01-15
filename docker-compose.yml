@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  nodejs:
+    build:
+      context: ${PROJECT_ROOT}
+      args:
+       NODE_VERSION: ${NODE_VERSION}
+    ports:
+      - "5001:80"
+    volumes:
+      - ${PROJECT_ROOT}/:/app
+    container_name: nodejs-con
